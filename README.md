@@ -1,2 +1,1 @@
-# EECS504_Prpject_Group16
-Repository for the Fall 2018 EECS504 Project
+# EECS504 Final Project: Human Gesture Recognition Through Skeleton Estimation
