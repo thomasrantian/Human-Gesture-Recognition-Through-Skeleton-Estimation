@@ -5,3 +5,25 @@ we proposed a vision-based explicit method that calculated the probability distr
 The human skeleton estimation is following this [CVPR paper](https://arxiv.org/abs/1611.08050).
 
 The original repo can be found [here](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
+
+## Pipe-Line
+1. Human Skeleton Estimation Model Implementation and Training (90% of our total workload)
+2. Gesture Recognition Model Implementation and Training (10% of our total work)
+
+
+## Human Skeleton Estimation Model Implementation and Training
+### Data Set
+
+* Option 1: Download a small sample training set saved by us from this [LINK](https://github.com/cocodataset/cocoapi)
+* Option 2: Download the COCO data set (65GB) and API following from [REPO](https://github.com/cocodataset/cocoapi)
+
+### Training Procedure
+1. Download the training data, put training data in data folder
+2. cd skeleton_estimation_train
+3. python3 train_model_main.py
+4. Without pre-trained weights, set RETRAIN = 0
+
+### Result
+<div align="center">
+<img src="sample_test/TestResult/test1_modified.jpg", width="300", height="300">
+</div>
