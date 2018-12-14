@@ -27,3 +27,18 @@ The original repo can be found [here](https://github.com/ZheC/Realtime_Multi-Per
 <div align="center">
 <img src="sample_test/TestResult/test1_modified.jpg", width="300", height="300">
 </div>
+
+##  Gesture Recognition Model Implementation and Training
+
+#### We want to point out that our work is focusing on the Human Skeleton Estimation Model Implementation, and Gesture Recognition is an application that uses the detected human skeleton, which is not our focus in this project.
+
+### Data Set
+We can not find a free and public data set that fit out requirement, we manually labeled 1000 images that contain three most common human intentions: pedestrian stopping the vehicle, pedestrian requesting a ride and biker indicating the lane changing, to test the gesture recognition concept. 
+1. Install jupyter notebook
+2. cd gesture_train
+3. run gesture_recognition_train.ipynb
+
+### Result
+<div align="center">
+<img src="sample_test/TestResult/test1_modified_re.jpg", width="300", height="300">
+</div>
