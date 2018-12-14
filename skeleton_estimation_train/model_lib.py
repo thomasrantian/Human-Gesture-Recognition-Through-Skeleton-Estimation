@@ -1,4 +1,8 @@
 """
+Train the Keras model for the human skeleton detection;
+Created by Thomas Tian (tianran@umich.edu)in EECS 504 course
+"""
+"""
 Import the packages from Keras (note, we are using 2.2.0 version)
 """
 from packages_lib import *
