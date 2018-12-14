@@ -15,7 +15,7 @@ The original repo can be found [here](https://github.com/ZheC/Realtime_Multi-Per
 ### Data Set
 
 * Option 1: Download a small sample training set saved by us from this [LINK](https://github.com/cocodataset/cocoapi)
-* Option 2: Download the COCO data set (65GB) and API following from [REPO](https://github.com/cocodataset/cocoapi)
+* Option 2: Download the COCO data set (65GB) and API following this [REPO](https://github.com/cocodataset/cocoapi)
 
 ### Training Procedure
 1. Download the training data, put training data in data folder
