@@ -23,6 +23,12 @@ The original repo can be found [here](https://github.com/ZheC/Realtime_Multi-Per
 3. python3 train_model_main.py
 4. Without pre-trained weights, set RETRAIN = 0
 
+###  Detailed Code
+1. train_model_main.py: main code to train the model
+2. packages_lib.py: import all the packages we need
+3. model_lib.py: all the sub cnn modes we need (vgg, ...) to build the skeleton detection model
+4. model_builder.py: use the sub cnns from model_lib.py to build the final model 
+
 ### Result
 <div align="center">
 <img src="sample_test/TestResult/test1_modified.jpg", width="300", height="300">
@@ -42,3 +48,5 @@ We can not find a free and public data set that fit out requirement, we manually
 <div align="center">
 <img src="test1_modified_re.jpg", width="300", height="300">
 </div>
+
+
