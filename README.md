@@ -40,5 +40,5 @@ We can not find a free and public data set that fit out requirement, we manually
 
 ### Result
 <div align="center">
-<img src="sample_test/TestResult/test1_modified_re.jpg", width="300", height="300">
+<img src="test1_modified_re.jpg", width="300", height="300">
 </div>
