@@ -10,6 +10,20 @@ The original repo can be found [here](https://github.com/ZheC/Realtime_Multi-Per
 1. Human Skeleton Estimation Model Implementation and Training (90% of our total workload)
 2. Gesture Recognition Model Implementation and Training (10% of our total work)
 
+## Demo
+A demo script is provided to see the whole process (main.ipynp)
+In this scrip, a test image is firstly imported, then we use the test image to run the human skeleton estimation model, then construct the feature vector, finally we use the gesture recognition model to interpret the gesture.
+
+To run the main.ipynp, you need to :
+1. Install all the packages you need  following the package_spec.txt (Note that you need to install keras 2.2.0)
+
+2. Install Anaconda and jupyter notebook
+
+2. Download the model weights from this [LINK](https://drive.google.com/open?id=1VJiZfLsHz_VhtQBjlekh6bZIfILsnnzI), put the model_weights.h5 file in the data folder.
+
+3. Run main.ipynp cell by cell
+
+
 
 ## Human Skeleton Estimation Model Implementation and Training
 ### Data Set
@@ -18,7 +32,9 @@ The original repo can be found [here](https://github.com/ZheC/Realtime_Multi-Per
 * Option 2: Download the COCO data set (65GB) and API following this [REPO](https://github.com/cocodataset/cocoapi)
 
 ### Training Procedure
-1. Download the training data, put training data in data folder
+1. Download the training data (6GB) following the [LINK](https://github.com/cocodataset/cocoapi)
+2. Put the train data in data folder
+3. (Optional) Download the pre-trained weights from this [LINK](https://drive.google.com/open?id=1VJiZfLsHz_VhtQBjlekh6bZIfILsnnzI), put the model_weights.h5 file in the data folder
 2. cd skeleton_estimation_train
 3. python3 train_model_main.py
 4. Without pre-trained weights, set RETRAIN = 0
@@ -48,5 +64,3 @@ We can not find a free and public data set that fit out requirement, we manually
 <div align="center">
 <img src="test1_modified_re.jpg", width="300", height="300">
 </div>
-
-
