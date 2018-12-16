@@ -6,16 +6,21 @@ The human skeleton estimation is following this [CVPR paper](https://arxiv.org/a
 
 The original repo can be found [here](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
 
+
 ## Pipe-Line
 1. Human Skeleton Estimation Model Implementation and Training (90% of our total workload)
 2. Gesture Recognition Model Implementation and Training (10% of our total work)
+
+### See the demo video -- demo.mp4
+
+### See the how_to_train_human_skeleton_model.mp4 for how to train the model
 
 ## Demo
 A demo script is provided to see the whole process (main.ipynp)
 In this scrip, a test image is firstly imported, then we use the test image to run the human skeleton estimation model, then construct the feature vector, finally we use the gesture recognition model to interpret the gesture.
 
 To run the main.ipynp, you need to :
-1. Install all the packages you need  following the package_spec.txt (Note that you need to install keras 2.2.0)
+1. Install all the packages you need  following the package_spec.txt  (Note that you need to install keras 2.2.0, other version may fail to extract the weights)
 
 2. Install Anaconda and jupyter notebook
 
@@ -28,11 +33,11 @@ To run the main.ipynp, you need to :
 ## Human Skeleton Estimation Model Implementation and Training
 ### Data Set
 
-* Option 1: Download a small sample training set saved by us from this [LINK](https://github.com/cocodataset/cocoapi)
+* Option 1: Download a small sample training set saved by us from this [LINK](https://drive.google.com/open?id=1x_R6ReTPYy3MJ_46kLOIwuNFgeKPZEDy)
 * Option 2: Download the COCO data set (65GB) and API following this [REPO](https://github.com/cocodataset/cocoapi)
 
 ### Training Procedure
-1. Download the training data (6GB) following the [LINK](https://github.com/cocodataset/cocoapi)
+1. Download the training data (6GB) following the [LINK](https://drive.google.com/open?id=1x_R6ReTPYy3MJ_46kLOIwuNFgeKPZEDy)
 2. Put the train data in data folder
 3. (Optional) Download the pre-trained weights from this [LINK](https://drive.google.com/open?id=1VJiZfLsHz_VhtQBjlekh6bZIfILsnnzI), put the model_weights.h5 file in the data folder
 2. cd skeleton_estimation_train
