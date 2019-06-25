@@ -1,6 +1,6 @@
 # EECS504 Final Project: Human Gesture Recognition Through Skeleton Estimation
 ## Overview
-we proposed a vision-based explicit method that calculated the probability distribution of human intentions through gesture recognition for autonomous vehicles. The method utilizes a human skeleton estimation model to find the locations of the human skeleton key points, and constructs a feature vector to represent the human gesture based on the estimated human skeleton key points. A gesture recognition model is further deployed to obtain the human intention probability distribution with feature vectors as the inputs.
+we proposed a vision-based method that identify human gesture for autonomous vehicles. The method utilizes a human skeleton estimation model to find the locations of the human skeleton key points, and constructs a feature vector to represent the human gesture based on the estimated human skeleton key points. A gesture recognition model is further deployed to identify the gesture.
 
 The human skeleton estimation is following this [CVPR paper](https://arxiv.org/abs/1611.08050).
 
@@ -8,8 +8,8 @@ The original repo can be found [here](https://github.com/ZheC/Realtime_Multi-Per
 
 
 ## Pipe-Line
-1. Human Skeleton Estimation Model Implementation and Training (90% of our total workload)
-2. Gesture Recognition Model Implementation and Training (10% of our total work)
+1. Human Skeleton Estimation Model Implementation and Training 
+2. Gesture Recognition Model Implementation and Training 
 
 ### See the demo video -- demo.mp4
 
