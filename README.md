@@ -4,7 +4,7 @@ we proposed a vision-based method that identify human gesture for autonomous veh
 
 The human skeleton estimation is following this [CVPR paper](https://arxiv.org/abs/1611.08050).
 
-The original repo can be found [here](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)
+The original repo can be found [here](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation).
 
 
 ## Pipe-Line
